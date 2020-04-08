@@ -11,13 +11,14 @@ import java.io.PrintWriter;
 @WebServlet("/LoginController")
 public class LoginController extends HttpServlet {
     public static final String Name_Pattern = "^[A-Z]{1}[a-z]{2,}$";
+    public static final String Password_Pattern = "((?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,})";
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
 
 
-        if(userName.matches(Name_Pattern) && password.equals("prasad@1508")){
+        if(userName.matches(Name_Pattern) && password.equals(Password_Pattern)){
             request.setAttribute("userName",userName);
             request.getRequestDispatcher("loginSuccess.jsp").forward(request,response);
         }else{
