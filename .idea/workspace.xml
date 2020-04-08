@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaa2b3f5-31dd-45bb-8eca-362c149e75bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginSuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SampleServlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SampleServlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,11 +136,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -164,6 +156,7 @@
       <workItem from="1586282253799" duration="2327000" />
       <workItem from="1586333345091" duration="681000" />
       <workItem from="1586369354489" duration="4033000" />
+      <workItem from="1586378631813" duration="1337000" />
     </task>
     <servers />
   </component>
@@ -235,9 +228,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="856" height="175" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1586373654456" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586369353634">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586378665093">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1586369353634" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1586378665093" />
   </component>
 </project>

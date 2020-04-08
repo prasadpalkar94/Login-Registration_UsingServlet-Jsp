@@ -8,24 +8,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(
-       description = "Login Servlet Testing",
-        urlPatterns = {"/LoginController"},
-        initParams = {
-                @WebInitParam(name = "user",value = "Prasad15"),
-                @WebInitParam(name = "pwd",value = "prasad@1508")
-        }
-)
+@WebServlet("/LoginController")
 public class LoginController extends HttpServlet {
+    public static final String Name_Pattern = "^[A-Z]{1}[a-z]{2,}$";
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
 
-        String userId = getServletConfig().getInitParameter("user");
-        String passwordId = getServletConfig().getInitParameter("pwd");
 
-        if(userId.equals(userName) && passwordId.equals(password)){
+        if(userName.matches(Name_Pattern) && password.equals("prasad@1508")){
             request.setAttribute("userName",userName);
             request.getRequestDispatcher("loginSuccess.jsp").forward(request,response);
         }else{
