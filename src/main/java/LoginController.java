@@ -18,7 +18,7 @@ public class LoginController extends HttpServlet {
         String password = request.getParameter("password");
 
 
-        if(userName.matches(Name_Pattern) && password.equals("Password_Pattern")){
+        if(userName.matches(Name_Pattern) && password.matches(Password_Pattern)){
             request.setAttribute("userName",userName);
             request.getRequestDispatcher("loginSuccess.jsp").forward(request,response);
         }else{
