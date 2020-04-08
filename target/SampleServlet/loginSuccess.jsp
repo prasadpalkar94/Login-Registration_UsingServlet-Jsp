@@ -12,6 +12,6 @@
 </head>
 <body>
 <h3><%= request.getAttribute("userName") %>Login Successful</h3>
-<a href="login.jsp">Login</a>
+<a href="logout.jsp">Login</a>
 </body>
 </html>
